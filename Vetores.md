@@ -18,7 +18,7 @@ Notas sobre o resumo:
 	- [Produto Escalar](#Produto-Escalar)
 	- [Ângulo entre Vetores](Ângulo-entre-Vetores)
 	- [Ortogonalidade entre Vetores](#Ortogonalidade-entre-Vetores)
- - $mathbb{R}$
+ - $\mathbb{R}$
 
 ## Definição
 
