@@ -4,4 +4,4 @@ Repositório que contém resumos de conceitos importantes do curso de Ciência d
 
 Arquivos `.md` que contêm muitos símbolos matemáticos demoram para carregar porque a biblioteca MathJax é lenta.
 
-- [Vetores](Vetores.md)
+- [Vetores (matemática)](Vetores%20(matemática).md)
