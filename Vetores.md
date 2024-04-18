@@ -7,9 +7,9 @@ Notas sobre o resumo:
 
 ## Sumário
 - [Definição](#Definição)
-	- [Representações](#Representações)
+	- [Representações](#Representação)
 	- [Nomenclaturas](#Nomenclaturas)
-- [Base Canônica do $\Real^3$](#Base-Canônica-do-$\R^3$)
+- [Base Canônica do $\mathbb{R}^3$](#Base-Canônica-do-$\mathbb{R}^3$)
 - [Operações com Vetores](#Operações-com-Vetores)
 	- [Decomposição](#Decomposição)
 	- [Adição](#Adição)
@@ -18,23 +18,22 @@ Notas sobre o resumo:
 	- [Produto Escalar](#Produto-Escalar)
 	- [Ângulo entre Vetores](Ângulo-entre-Vetores)
 	- [Ortogonalidade entre Vetores](#Ortogonalidade-entre-Vetores)
- - $\mathbb{R}$
 
 ## Definição
 
 Um **vetor** determinado por um segmento orientado AB (i.e. uma seta que sai do ponto $A$ e que vai até o ponto $B$) é o conjunto de todos os segmentos orientados [equipolentes](https://www.infopedia.pt/dicionarios/lingua-portuguesa/equipolente) a AB. Representa grandezas que possuem magnitude (comprimento), direção e sentido.
 
-### Representações
+### Representação
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vector_from_A_to_B.svg/1920px-Vector_from_A_to_B.svg.png)
 
-**Vetor:** $\vec{v}\in\R^n$ tal que $\vec{v}=(x_1, x_2, ..., x_n)$
+**Vetor:** $\vec{v}\in\mathbb{R}^n$ tal que $\vec{v}=(x_1, x_2, ..., x_n)$
 
 **Módulo (comprimento) do vetor:** $|\vec{v}|=\|\vec{v}\|=\sqrt{x_1^2+x_2^2+...+x_n^2}$
 
 Exemplos:
-* $\vec{a}=(1,2)$. Neste caso, $\vec{a}$ está no plano cartesiano $\R^2$
-* $\vec{b}=(5,10,15)$. Aqui, $\vec{b}$ está no espaço cartesiano $\R^3$
+* $\vec{a}=(1,2)$. Neste caso, $\vec{a}$ está no plano cartesiano $\mathbb{R}^2$
+* $\vec{b}=(5,10,15)$. Aqui, $\vec{b}$ está no espaço cartesiano $\mathbb{R}^3$
 
 Seja o ponto $A=(1,0)$ e o ponto $B=(2,3)$. Para se obter o vetor $\overrightarrow{AB}$, deve-se calcular $B-A$:
 
@@ -67,9 +66,9 @@ $\approx3,16227$
 
 - **Vetores coplanares:** Se os vetores não nulos $\vec{u}$ , $\vec{v}$ e $\vec{w}$ possuem representantes $AB$, $CD$ e $EF$ pertencentes a um mesmo plano *ou a planos paralelos*, diz-se que eles são coplanares.
 
-## Base Canônica do $\R^3$
+## Base Canônica do $\mathbb{R}^3$
 
-A [base canônica](#https://pt.wikipedia.org/wiki/Base_can%C3%B4nica) no espaço vetorial $\R^3$ é formada pelos **versores** $\hat{i}=(1,0,0)$, $\hat{j}=(0,1,0)$ e $\hat{k}=(0,0,1)$.
+A [base canônica](#https://pt.wikipedia.org/wiki/Base_can%C3%B4nica) no espaço vetorial $\mathbb{R}^3$ é formada pelos **versores** $\hat{i}=(1,0,0)$, $\hat{j}=(0,1,0)$ e $\hat{k}=(0,0,1)$.
 
 ![](https://calcworkshop.com/wp-content/uploads/standard-basis-vectors.png)
 
@@ -77,7 +76,7 @@ A [base canônica](#https://pt.wikipedia.org/wiki/Base_can%C3%B4nica) no espaço
 
 ### Decomposição
 
-Um vetor $\vec{a}=(x, y, z)$ em $\R^3$ pode ser decomposto em três componentes que são formadas pelos vetores $\vec{a_x}=(x,0,0)$, $\vec{a_y}=(0,y,0)$ e $\vec{a_z}=(0,0,z)$.
+Um vetor $\vec{a}=(x, y, z)$ em $\mathbb{R}^3$ pode ser decomposto em três componentes que são formadas pelos vetores $\vec{a_x}=(x,0,0)$, $\vec{a_y}=(0,y,0)$ e $\vec{a_z}=(0,0,z)$.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/3D_Vector.svg/800px-3D_Vector.svg.png)
 
