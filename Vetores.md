@@ -9,7 +9,7 @@ Notas sobre o resumo:
 - [Definição](#Definição)
 	- [Representações](#Representação)
 	- [Nomenclaturas](#Nomenclaturas)
-- [Base Canônica do $\mathbb{R}^3$](#Base-Canônica-do-$\mathbb{R}^3$)
+- [Base Canônica](#Base-Canônica)
 - [Operações com Vetores](#Operações-com-Vetores)
 	- [Decomposição](#Decomposição)
 	- [Adição](#Adição)
@@ -29,7 +29,7 @@ Um **vetor** determinado por um segmento orientado AB (i.e. uma seta que sai do 
 
 **Vetor:** $\vec{v}\in\mathbb{R}^n$ tal que $\vec{v}=(x_1, x_2, ..., x_n)$
 
-**Módulo (comprimento) do vetor:** $|\vec{v}|=\|\vec{v}\|=\sqrt{x_1^2+x_2^2+...+x_n^2}$
+**Módulo (comprimento) do vetor:** $|\vec{v}|=||\vec{v}||=\sqrt{x_1^2+x_2^2+...+x_n^2}$
 
 Exemplos:
 * $\vec{a}=(1,2)$. Neste caso, $\vec{a}$ está no plano cartesiano $\mathbb{R}^2$
@@ -66,7 +66,7 @@ $\approx3,16227$
 
 - **Vetores coplanares:** Se os vetores não nulos $\vec{u}$ , $\vec{v}$ e $\vec{w}$ possuem representantes $AB$, $CD$ e $EF$ pertencentes a um mesmo plano *ou a planos paralelos*, diz-se que eles são coplanares.
 
-## Base Canônica do $\mathbb{R}^3$
+## Base Canônica
 
 A [base canônica](#https://pt.wikipedia.org/wiki/Base_can%C3%B4nica) no espaço vetorial $\mathbb{R}^3$ é formada pelos **versores** $\hat{i}=(1,0,0)$, $\hat{j}=(0,1,0)$ e $\hat{k}=(0,0,1)$.
 
