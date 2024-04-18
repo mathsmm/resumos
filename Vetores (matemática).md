@@ -60,9 +60,9 @@ $\approx3,16227$
 
 - **Vetor unitário:** Um vetor $\vec{v}$ é unitário se seu comprimento é igual a 1, ou seja, $|\vec{v}|=1$;
 
-- **Versor:** O versor de um vetor não nulo $\vec{v}$ é o vetor unitário de mesma direção o e sentido de $\vec{v}$;
+- **Versor:** O versor $\vec{u}$ de um vetor não nulo $\vec{v}$ é o vetor unitário de mesma direção o e sentido de $\vec{v}$. Pode ser obtido com a equação $\vec{u}=\frac{\vec{v}}{|\vec{v}|}$;
 
-- **Vetores colineares:** Dois vetores $\vec{u}$ e $\vec{v}$ são colineares se tiverem a mesma direção, ou seja, se tiverem representantes $AB$ e $CD$ pertencentes a uma mesma reta ou se as retas forem paralelas. Eles não necessitam ter mesmo módulo e mesmo sentido para serem colineares;
+- **Vetores colineares:** Dois vetores $\vec{u}$ e $\vec{v}$ são colineares se tiverem a mesma direção, ou seja, se tiverem representantes $AB$ e $CD$ pertencentes a uma mesma reta ou se as retas forem paralelas. Eles não necessitam ter mesmo módulo e mesmo sentido para serem colineares. Notação: $\vec{u}\parallel\vec{v}$ ou $\vec{u}//\vec{v}$;
 
 - **Vetores coplanares:** Se os vetores não nulos $\vec{u}$ , $\vec{v}$ e $\vec{w}$ possuem representantes $AB$, $CD$ e $EF$ pertencentes a um mesmo plano *ou a planos paralelos*, diz-se que eles são coplanares.
 
@@ -188,4 +188,33 @@ $$\vec{p}=\left(\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|^2}\right)\vec{u}$$
 
 ### Produto Vetorial
 
+Seja $\vec{u}=(x_1,y_1,z_1)$ e $\vec{v}=(x_2,y_2,z_2)$ vetores do $\mathbb{R}^3$, define-se o vetor que é o produto vetorial de $\vec{u}$ e $\vec{v}$, representado por $\vec{u}\times\vec{v}$, da seguinte forma:
+
+$$\vec{u}\times\vec{v}=\hat{i}(y_1z_2-y_2z_1)-\hat{j}(x_1z_2-x_2z_1)+\hat{k}(x_1y_2-x_2y_1)$$
+
+ou ainda, utilizando determinante de matriz 3x3:
+
+$$\vec{u}\times\vec{v}=
+\begin{vmatrix}
+\hat{i} & \hat{j} & \hat{k} \\
+x_1 & y_1 & z_1 \\
+x_2 & y_2 & z_2 \\
+\end{vmatrix}
+$$
+
+#### Observações
+
+Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial, é um terceiro vetor que apresenta as seguintes características:
+
+1) A direção do vetor $\vec{u}\times\vec{v}$ é perpendicular aos vetores $\vec{u}$ e $\vec{v}$;
+2) Seu módulo é $|\vec{u}\times\vec{v}|=|\vec{u}|\cdot|\vec{v}|\cdot\sin\theta$, onde $\theta$ é a medida do ângulo entre $\vec{u}$ e $\vec{v}$;
+3) Os vetores $\vec{u}$, $\vec{v}$ e $\vec{u}\times\vec{v}$ nesta ordem formam um [triedro](https://pt.wikipedia.org/wiki/Triedro) positivo.
+
 ![](img/06_vectors16.svg)
+
+#### Propridedades do Produto Vetorial
+
+- $\vec{u}\times\vec{v}=-(\vec{v}\times\vec{u})$
+- $\vec{u}\times(\vec{v}+\vec{w})=\vec{u}\times\vec{v}+\vec{u}\times\vec{w}$
+- $(a\vec{u})\times\vec{v}=a(\vec{u}\times\vec{v})$
+- $\vec{u}\times\vec{v}=\vec{0}\Leftrightarrow$ $\vec{u}$ ou $\vec{v}$ são nulos ou se $\vec{u}\parallel\vec{v}$ ($\vec{u}$ colinear a $\vec{v}$)
