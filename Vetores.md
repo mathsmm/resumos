@@ -7,9 +7,9 @@ Notas sobre o resumo:
 
 ## Sumário
 - [Definição](#Definição)
-	- [Representações](#Representação)
+	- [Representações](#Representações)
 	- [Nomenclaturas](#Nomenclaturas)
-- [Base Canônica do $\R^3$](#Base-Canônica-do-$\R^3$)
+- [Base Canônica do $\Real^3$](#Base-Canônica-do-$\R^3$)
 - [Operações com Vetores](#Operações-com-Vetores)
 	- [Decomposição](#Decomposição)
 	- [Adição](#Adição)
@@ -23,7 +23,7 @@ Notas sobre o resumo:
 
 Um **vetor** determinado por um segmento orientado AB (i.e. uma seta que sai do ponto $A$ e que vai até o ponto $B$) é o conjunto de todos os segmentos orientados [equipolentes](https://www.infopedia.pt/dicionarios/lingua-portuguesa/equipolente) a AB. Representa grandezas que possuem magnitude (comprimento), direção e sentido.
 
-### Representação
+### Representações
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vector_from_A_to_B.svg/1920px-Vector_from_A_to_B.svg.png)
 
