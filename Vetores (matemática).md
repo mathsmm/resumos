@@ -224,3 +224,12 @@ Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial 
 - $\vec{u}\times(\vec{v}+\vec{w})=\vec{u}\times\vec{v}+\vec{u}\times\vec{w}$
 - $(a\vec{u})\times\vec{v}=a(\vec{u}\times\vec{v})$
 - $\vec{u}\times\vec{v}=\vec{0}\Leftrightarrow$ $\vec{u}$ ou $\vec{v}$ são nulos ou se $\vec{u}\parallel\vec{v}$ ($\vec{u}$ colinear a $\vec{v}$)
+- $\vec{u}\times\vec{v}$ é simultaneamente ortogonal a $\vec{u}$ e $\vec{v}$
+- $|\vec{u}\bullet\vec{v}|^2=|\vec{u}|^2 \cdot|\vec{v}|^2-(\vec{u}\bullet\vec{v})^2$ (Identidade de Lagrange)
+- Se $\vec{u}\neq\vec{0}$ e $\vec{v}\neq\vec{0}$, e $\theta$ é o ângulo entre $\vec{u}$ e $\vec{v}$, então $$\sin\theta=\frac{|\vec{u}\times\vec{v}|}{|\vec{u}|\cdot|\vec{v}|}$$
+- O produto vetorial não é associativo, isto é $$\vec{u}\times(\vec{v}\times\vec{w})\neq(\vec{u}\times\vec{v})\times\vec{w}$$
+
+#### Interpretação Geométrica do Produto Vetorial
+
+A área $A$ de um paralelogramo formado pelos vetores $\vec{u}$ e $\vec{v}$ pode ser determinada pelo módulo do produto vetorial de $\vec{u}$ e $\vec{v}$. 
+$$A=|\vec{u}\times\vec{v}|$$
