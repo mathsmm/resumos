@@ -6,18 +6,20 @@ Notas sobre o resumo:
 2) Espera-se que o leitor já esteja familiarizado com planos e espaços cartesianos e operações matemáticas básicas (o que inclui cálculo de determinante de matrizes 2x2 e 3x3).
 
 ## Sumário
-- [Definição](#Definição)
-	- [Representações](#Representação)
-	- [Nomenclaturas](#Nomenclaturas)
-- [Base Canônica](#Base-Canônica)
-- [Operações com Vetores](#Operações-com-Vetores)
+- [Definição](#definição)
+	- [Representações](#representação)
+	- [Nomenclaturas](#nomenclaturas)
+- [Base Canônica](#base-canônica)
+- [Operações com Vetores](#operações-com-vetores)
 	- [Decomposição](#Decomposição)
-	- [Adição](#Adição)
-	- [Subtração](#Subtração)
-	- [Multiplicação por Escalar](#Multiplicação-por-Escalar)
-	- [Produto Escalar](#Produto-Escalar)
-	- [Ângulo entre Vetores](Ângulo-entre-Vetores)
-	- [Ortogonalidade entre Vetores](#Ortogonalidade-entre-Vetores)
+	- [Adição](#adição)
+	- [Subtração](#subtração)
+	- [Multiplicação por Escalar](#multiplicação-por-escalar)
+	- [Produto Escalar](#produto-escalar)
+	- [Ângulo entre Vetores](#ângulo-entre-vetores)
+	- [Ortogonalidade entre Vetores](#ortogonalidade-entre-vetores)
+	- [Projeção de Vetores](#projeção-de-vetores)
+	- [Produto Vetorial](#produto-vetorial)
 
 ## Definição
 
@@ -25,7 +27,7 @@ Um **vetor** determinado por um segmento orientado AB (i.e. uma seta que sai do 
 
 ### Representação
 
-![](img/Vector_from_A_to_B.png)
+![](img/Vetores%20(matemática)/Vector_from_A_to_B.png)
 
 **Vetor:** $\vec{v}\in\mathbb{R}^n$ tal que $\vec{v}=(x_1, x_2, ..., x_n)$
 
@@ -70,7 +72,7 @@ $\approx3,16227$
 
 A [base canônica](#https://pt.wikipedia.org/wiki/Base_can%C3%B4nica) no espaço vetorial $\mathbb{R}^3$ é formada pelos **versores** $\hat{i}=(1,0,0)$, $\hat{j}=(0,1,0)$ e $\hat{k}=(0,0,1)$.
 
-![](img/standard-basis-vectors.png)
+![](img/Vetores%20(matemática)/standard-basis-vectors.png)
 
 ## Operações com Vetores
 
@@ -78,7 +80,7 @@ A [base canônica](#https://pt.wikipedia.org/wiki/Base_can%C3%B4nica) no espaço
 
 Um vetor $\vec{a}=(x, y, z)$ em $\mathbb{R}^3$ pode ser decomposto em três componentes que são formadas pelos vetores $\vec{a_x}=(x,0,0)$, $\vec{a_y}=(0,y,0)$ e $\vec{a_z}=(0,0,z)$.
 
-![](img/3D_Vector.png)
+![](img/Vetores%20(matemática)/3D_Vector.png)
 
 ### Adição
 Sejam os vetores $\vec{u}=(a_1, a_2,..., a_n)$ e $\vec{v}=(b_1, b_2, ..., b_n)$. A soma dos vetores $\vec{u}$ e $\vec{v}$ é o vetor $\vec{w}$ definido pela sequência de expressões:
@@ -88,7 +90,7 @@ $=\vec{u}+\vec{v}$
 $=(a_1,a_2,...,a_n)+(b_1,b_2,...,b_n)$
 $=(a_1+b_1, a_2+b_2, ..., a_n + b_n)$
 
-![](img/vector_2d_add.png)
+![](img/Vetores%20(matemática)/vector_2d_add.png)
 
 #### Propriedades da Adição
 
@@ -114,10 +116,10 @@ $=(a_1-b_1, a_2-b_2, ..., a_n-b_n)$
 
 Seja $\vec{u}=(x_1, x_2, ..., x_n)$ um vetor e $k$ um número real, o produto do real $k$ pelo vetor $\vec{u}$ é o vetor $\vec{w}$ definido pela sequência de expressões:
 
-$\vec{w}$
-$=k\vec{u}$
-$=k(x_1, x_2, ..., x_n )$
-$=(kx_1, kx_2, ..., kx_n)$
+$\vec{w}$<br>
+$=k\vec{u}$<br>
+$=k(x_1, x_2, ..., x_n )$<br>
+$=(kx_1, kx_2, ..., kx_n)$<br>
 
 tal que:
 
@@ -210,7 +212,7 @@ Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial,
 2) Seu módulo é $|\vec{u}\times\vec{v}|=|\vec{u}|\cdot|\vec{v}|\cdot\sin\theta$, onde $\theta$ é a medida do ângulo entre $\vec{u}$ e $\vec{v}$;
 3) Os vetores $\vec{u}$, $\vec{v}$ e $\vec{u}\times\vec{v}$ nesta ordem formam um [triedro](https://pt.wikipedia.org/wiki/Triedro) positivo.
 
-![](img/06_vectors16.svg)
+![](img/Vetores%20(matemática)/06_vectors16.svg)
 
 #### Propridedades do Produto Vetorial
 
