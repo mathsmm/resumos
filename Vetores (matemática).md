@@ -7,19 +7,19 @@ Notas sobre o resumo:
 
 ## Sumário
 - [Definição](#definição)
-	- [Representações](#representação)
-	- [Nomenclaturas](#nomenclaturas)
+  - [Representações](#representação)
+  - [Nomenclaturas](#nomenclaturas)
 - [Base Canônica](#base-canônica)
 - [Operações com Vetores](#operações-com-vetores)
-	- [Decomposição](#Decomposição)
-	- [Adição](#adição)
-	- [Subtração](#subtração)
-	- [Multiplicação por Escalar](#multiplicação-por-escalar)
-	- [Produto Escalar](#produto-escalar)
-	- [Ângulo entre Vetores](#ângulo-entre-vetores)
-	- [Ortogonalidade entre Vetores](#ortogonalidade-entre-vetores)
-	- [Projeção de Vetores](#projeção-de-vetores)
-	- [Produto Vetorial](#produto-vetorial)
+  - [Decomposição](#Decomposição)
+  - [Adição](#adição)
+  - [Subtração](#subtração)
+  - [Multiplicação por Escalar](#multiplicação-por-escalar)
+  - [Produto Escalar](#produto-escalar)
+  - [Ângulo entre Vetores](#ângulo-entre-vetores)
+  - [Ortogonalidade entre Vetores](#ortogonalidade-entre-vetores)
+  - [Projeção de Vetores](#projeção-de-vetores)
+  - [Produto Vetorial](#produto-vetorial)
 
 ## Definição
 
@@ -189,8 +189,8 @@ $$\vec{p}=\left(\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|^2}\right)\vec{u}$$
 - Se os vetores forem **colineares**, $Proj_{\vec{u}}\vec{v}=\vec{v}$ e $Proj_{\vec{v}}\vec{u}=\vec{u}$;
 
 - Se o vetor $\vec{u}$ for **unitário** (módulo igual a 1), então
-	- $Proj_{\vec{u}}\vec{v}=(\vec{u}\bullet\vec{v})\vec{u}$
-	- $|Proj_{\vec{u}}\vec{v}|=|\vec{u}\bullet\vec{v}|$
+  - $Proj_{\vec{u}}\vec{v}=(\vec{u}\bullet\vec{v})\vec{u}$
+  - $|Proj_{\vec{u}}\vec{v}|=|\vec{u}\bullet\vec{v}|$
 
 ### Produto Vetorial
 
