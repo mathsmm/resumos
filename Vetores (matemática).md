@@ -39,18 +39,18 @@ Exemplos:
 
 Seja o ponto $A=(1,0)$ e o ponto $B=(2,3)$. Para se obter o vetor $\overrightarrow{AB}$, deve-se calcular $B-A$:
 
-$B-A$
-$=(2,3)-(1,0)$
-$=(2-1,3-0)$
-$=(1,3)$
-$=\overrightarrow{AB}$
+$B-A$<br>
+$=(2,3)-(1,0)$<br>
+$=(2-1,3-0)$<br>
+$=(1,3)$<br>
+$=\overrightarrow{AB}$<br>
 
 O **módulo** do vetor $\overrightarrow{AB}$ é a distância entre os pontos $A$ e $B$. Para se obter esta distância, calcula-se:
 
-$|\overrightarrow{AB}|$
-$=\sqrt{1^2+3^2}$
-$=\sqrt{10}$
-$\approx3,16227$
+$|\overrightarrow{AB}|$<br>
+$=\sqrt{1^2+3^2}$<br>
+$=\sqrt{10}$<br>
+$\approx3,16227$<br>
 
 ### Nomenclaturas
 
@@ -78,17 +78,19 @@ A [base canônica](#https://pt.wikipedia.org/wiki/Base_can%C3%B4nica) no espaço
 
 ### Decomposição
 
-Um vetor $\vec{a}=(x, y, z)$ em $\mathbb{R}^3$ pode ser decomposto em três componentes que são formadas pelos vetores $\vec{a_x}=(x,0,0)$, $\vec{a_y}=(0,y,0)$ e $\vec{a_z}=(0,0,z)$.
+Um vetor $\vec{a}=(x, y, z)$ em $\mathbb{R}^3$ pode ser decomposto em três componentes que são formadas pelos vetores $\vec{a_x}=(x,0,0)$, $\vec{a_y}=(0,y,0)$ e $\vec{a_z}=(0,0,z)$. 
+
+Também é possível representar um vetor utilizando os versores $\hat{i}$, $\hat{j}$ e $\hat{k}$ desta forma: $\vec{a}=x\cdot\hat{i}+y\cdot\hat{j}+z\cdot\hat{k}$
 
 ![](img/Vetores%20(matemática)/3D_Vector.png)
 
 ### Adição
 Sejam os vetores $\vec{u}=(a_1, a_2,..., a_n)$ e $\vec{v}=(b_1, b_2, ..., b_n)$. A soma dos vetores $\vec{u}$ e $\vec{v}$ é o vetor $\vec{w}$ definido pela sequência de expressões:
 
-$\vec{w}$
-$=\vec{u}+\vec{v}$
-$=(a_1,a_2,...,a_n)+(b_1,b_2,...,b_n)$
-$=(a_1+b_1, a_2+b_2, ..., a_n + b_n)$
+$\vec{w}$<br>
+$=\vec{u}+\vec{v}$<br>
+$=(a_1,a_2,...,a_n)+(b_1,b_2,...,b_n)$<br>
+$=(a_1+b_1, a_2+b_2, ..., a_n + b_n)$<br>
 
 ![](img/Vetores%20(matemática)/vector_2d_add.png)
 
@@ -106,11 +108,11 @@ $=(a_1+b_1, a_2+b_2, ..., a_n + b_n)$
 
 Sejam os vetores $\vec{u}=(a_1, a_2,..., a_n)$ e $\vec{v}=(b_1, b_2, ..., b_n)$. A subtração (ou diferença) dos vetores $\vec{u}$ e $\vec{v}$ é o vetor $\vec{w}$ definido pela sequência de expressões (utiliza multiplicação por escalar com o valor $-1$):
 
-$\vec{w}$
-$=\vec{u}+(-\vec{v})$
-$=(a_1,a_2,...,a_n)+(-(b_1,b_2,...,b_n))$
-$=(a_1,a_2,...,a_n)+(-b_1,-b_2,...,-b_n)$
-$=(a_1-b_1, a_2-b_2, ..., a_n-b_n)$
+$\vec{w}$<br>
+$=\vec{u}+(-\vec{v})$<br>
+$=(a_1,a_2,...,a_n)+(-(b_1,b_2,...,b_n))$<br>
+$=(a_1,a_2,...,a_n)+(-b_1,-b_2,...,-b_n)$<br>
+$=(a_1-b_1, a_2-b_2, ..., a_n-b_n)$<br>
 
 ### Multiplicação por Escalar
 
@@ -144,7 +146,7 @@ Seja $\vec{u}=(x_1, x_2, ..., x_n)$ e $\vec{v}=(y_1, y_2, ..., y_n)$, o produto 
 $$\vec{u}\bullet\vec{v}=x_1y_1+x_2y_2+...+x_ny_n$$
 ou por
 $$\vec{u}\bullet\vec{v}=|\vec{u}|\cdot|\vec{v}|\cdot\cos\theta$$
-onde $\theta$ é o [ângulo formado entre os dois vetores](#Ângulo-entre-Vetores).
+onde $\theta$ é o [ângulo formado entre os dois vetores](#ângulo-entre-vetores).
 
 #### Propriedades do Produto Escalar
 
@@ -171,11 +173,13 @@ $$\cos\theta=\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|\cdot|\vec{v}|}$$
 
 ### Ortogonalidade entre Vetores
 
-Dois vetores $\vec{u}$ e $\vec{v}$ são ortogonais se, e somente se $\vec{u}\bullet\vec{v}=0$. Em outras palavras, para determinar se dois vetores são ortogonais, basta verificar se o produto escalar entre eles é igual a zero. A ortogonalidade de dois vetores é representada pelo símbolo "$\perp$". Neste caso, $\vec{u}\perp\vec{v}$.
+Dois vetores $\vec{u}$ e $\vec{v}$ são ortogonais ou perpendiculares se, e somente se $\vec{u}\bullet\vec{v}=0$.
+
+Em outras palavras, para determinar se dois vetores são ortogonais, basta verificar se o produto escalar entre eles é igual a zero. A ortogonalidade de dois vetores é representada pelo símbolo "$\perp$". Neste caso, $\vec{u}\perp\vec{v}$.
 
 ### Projeção de Vetores
 
-Dado dois vetores não nulos $\vec{u}$ e $\vec{v}$, a projeção de $\vec{v}$ sobre $\vec{u}$, denominada $Proj_{\vec{u}}\vec{v}$, é o vetor $\vec{p}$ determinado por
+Dado dois vetores não nulos $\vec{u}$ e $\vec{v}$, a projeção de $\vec{v}$ sobre $\vec{u}$, denominada $Proj_{\vec{u}}\vec{v}$, é o vetor $\vec{p}$ determinado por:
 $$\vec{p}=\left(\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|^2}\right)\vec{u}$$
 
 #### Observações
@@ -192,7 +196,7 @@ $$\vec{p}=\left(\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|^2}\right)\vec{u}$$
 
 Seja $\vec{u}=(x_1,y_1,z_1)$ e $\vec{v}=(x_2,y_2,z_2)$ vetores do $\mathbb{R}^3$, define-se o vetor que é o produto vetorial de $\vec{u}$ e $\vec{v}$, representado por $\vec{u}\times\vec{v}$, da seguinte forma:
 
-$$\vec{u}\times\vec{v}=\hat{i}(y_1z_2-y_2z_1)-\hat{j}(x_1z_2-x_2z_1)+\hat{k}(x_1y_2-x_2y_1)$$
+$$\vec{u}\times\vec{v}=(y_1z_2-y_2z_1)\hat{i}-(x_1z_2-x_2z_1)\hat{j}+(x_1y_2-x_2y_1)\hat{k}$$
 
 ou ainda, utilizando determinante de matriz 3x3:
 
@@ -206,7 +210,7 @@ $$
 
 #### Observações
 
-Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial, é um terceiro vetor que apresenta as seguintes características:
+Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial é um terceiro vetor que apresenta as seguintes características:
 
 1) A direção do vetor $\vec{u}\times\vec{v}$ é perpendicular aos vetores $\vec{u}$ e $\vec{v}$;
 2) Seu módulo é $|\vec{u}\times\vec{v}|=|\vec{u}|\cdot|\vec{v}|\cdot\sin\theta$, onde $\theta$ é a medida do ângulo entre $\vec{u}$ e $\vec{v}$;
