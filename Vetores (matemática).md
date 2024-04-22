@@ -175,7 +175,7 @@ $$\cos\theta=\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|\cdot|\vec{v}|}$$
 
 Dois vetores $\vec{u}$ e $\vec{v}$ são ortogonais ou perpendiculares se, e somente se $\vec{u}\bullet\vec{v}=0$.
 
-Em outras palavras, para determinar se dois vetores são ortogonais, basta verificar se o produto escalar entre eles é igual a zero. A ortogonalidade de dois vetores é representada pelo símbolo "$\perp$". Neste caso, $\vec{u}\perp\vec{v}$.
+Em outras palavras, para determinar se dois vetores são ortogonais, basta verificar se o produto escalar entre eles é igual a zero. A ortogonalidade de dois vetores é representada pelo símbolo $\perp$. Neste caso, $\vec{u}\perp\vec{v}$.
 
 ### Projeção de Vetores
 
