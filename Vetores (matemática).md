@@ -20,6 +20,7 @@ Notas sobre o resumo:
   - [Ortogonalidade entre Vetores](#ortogonalidade-entre-vetores)
   - [Projeção de Vetores](#projeção-de-vetores)
   - [Produto Vetorial](#produto-vetorial)
+  - [Produto Misto](#produto-misto)
 
 ## Definição
 
@@ -210,6 +211,8 @@ $$
 
 #### Observações
 
+*O Produto Vetorial não é definido no $\mathbb{R}^2$*
+
 Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial é um terceiro vetor que apresenta as seguintes características:
 
 1) A direção do vetor $\vec{u}\times\vec{v}$ é perpendicular aos vetores $\vec{u}$ e $\vec{v}$;
@@ -233,3 +236,9 @@ Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial 
 
 A área $A$ de um paralelogramo formado pelos vetores $\vec{u}$ e $\vec{v}$ pode ser determinada pelo módulo do produto vetorial de $\vec{u}$ e $\vec{v}$. 
 $$A=|\vec{u}\times\vec{v}|$$
+
+### Produto Misto
+
+*O Produto Misto não é definido no $\mathbb{R}^2$*
+
+Dados os vetores $\vec{u}=(x_1,y_1,z_1)$, $\vec{v}=(x_2,y_2,z_2)$ e $\vec{w}=(x_3,y_3,z_3)$
