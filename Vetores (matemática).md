@@ -1,32 +1,40 @@
-# Vetores
-Resumo de Vetores baseado em sua [página do Wikipédia](https://pt.wikipedia.org/wiki/Vetor_(matem%C3%A1tica)) e no material do Prof.º Christian Wagner (UFSC). 
+Resumo de **Vetores** baseado em sua [página do Wikipédia](https://pt.wikipedia.org/wiki/Vetor_(matem%C3%A1tica)) e no material do Prof.º Christian Wagner (UFSC). 
 
 Notas sobre o resumo:
 1) Desconsideram-se demonstrações;
 2) Espera-se que o leitor já esteja familiarizado com planos e espaços cartesianos e operações matemáticas básicas (o que inclui cálculo de determinante de matrizes 2x2 e 3x3).
 
-## Sumário
+**Sumário**
 - [Definição](#definição)
-  - [Representações](#representação)
+  - [Representação](#representação)
   - [Nomenclaturas](#nomenclaturas)
 - [Base Canônica](#base-canônica)
 - [Operações com Vetores](#operações-com-vetores)
-  - [Decomposição](#Decomposição)
+  - [Decomposição](#decomposição)
   - [Adição](#adição)
+    - [Propriedades da Adição](#propriedades-da-adição)
   - [Subtração](#subtração)
   - [Multiplicação por Escalar](#multiplicação-por-escalar)
+    - [Propriedades da Multiplicação por Escalar](#propriedades-da-multiplicação-por-escalar)
   - [Produto Escalar](#produto-escalar)
+    - [Propriedades do Produto Escalar](#propriedades-do-produto-escalar)
   - [Ângulo entre Vetores](#ângulo-entre-vetores)
+    - [Observações (Ângulo entre Vetores)](#observações-ângulo-entre-vetores)
   - [Ortogonalidade entre Vetores](#ortogonalidade-entre-vetores)
   - [Projeção de Vetores](#projeção-de-vetores)
+    - [Observações (Projeção de Vetores)](#observações-projeção-de-vetores)
   - [Produto Vetorial](#produto-vetorial)
+    - [Observações (Produto Vetorial)](#observações-produto-vetorial)
+    - [Propridedades do Produto Vetorial](#propridedades-do-produto-vetorial)
+    - [Interpretação Geométrica do Produto Vetorial](#interpretação-geométrica-do-produto-vetorial)
   - [Produto Misto](#produto-misto)
+    - [Observações (Produto Misto)](#observações-produto-misto)
 
-## Definição
+# Definição
 
 Um **vetor** determinado por um segmento orientado AB (i.e. uma seta que sai do ponto $A$ e que vai até o ponto $B$) é o conjunto de todos os segmentos orientados [equipolentes](https://www.infopedia.pt/dicionarios/lingua-portuguesa/equipolente) a AB. Representa grandezas que possuem magnitude (comprimento), direção e sentido.
 
-### Representação
+## Representação
 
 ![](img/Vetores%20(matemática)/Vector_from_A_to_B.png)
 
@@ -53,7 +61,7 @@ $=\sqrt{1^2+3^2}$<br>
 $=\sqrt{10}$<br>
 $\approx3,16227$<br>
 
-### Nomenclaturas
+## Nomenclaturas
 
 - **Vetores iguais:** Dois vetores $\overrightarrow{AB}$ e $\overrightarrow{CD}$ são iguais se, e somente se são equipolentes;
 
@@ -69,15 +77,15 @@ $\approx3,16227$<br>
 
 - **Vetores coplanares:** Se os vetores não nulos $\vec{u}$ , $\vec{v}$ e $\vec{w}$ possuem representantes $AB$, $CD$ e $EF$ pertencentes a um mesmo plano *ou a planos paralelos*, diz-se que eles são coplanares.
 
-## Base Canônica
+# Base Canônica
 
 A [base canônica](#https://pt.wikipedia.org/wiki/Base_can%C3%B4nica) no espaço vetorial $\mathbb{R}^3$ é formada pelos **versores** $\hat{i}=(1,0,0)$, $\hat{j}=(0,1,0)$ e $\hat{k}=(0,0,1)$.
 
 ![](img/Vetores%20(matemática)/standard-basis-vectors.png)
 
-## Operações com Vetores
+# Operações com Vetores
 
-### Decomposição
+## Decomposição
 
 Um vetor $\vec{a}=(x, y, z)$ em $\mathbb{R}^3$ pode ser decomposto em três componentes que são formadas pelos vetores $\vec{a_x}=(x,0,0)$, $\vec{a_y}=(0,y,0)$ e $\vec{a_z}=(0,0,z)$. 
 
@@ -85,7 +93,7 @@ Também é possível representar um vetor utilizando os versores $\hat{i}$, $\ha
 
 ![](img/Vetores%20(matemática)/3D_Vector.png)
 
-### Adição
+## Adição
 Sejam os vetores $\vec{u}=(a_1, a_2,..., a_n)$ e $\vec{v}=(b_1, b_2, ..., b_n)$. A soma dos vetores $\vec{u}$ e $\vec{v}$ é o vetor $\vec{w}$ definido pela sequência de expressões:
 
 $\vec{w}$<br>
@@ -95,7 +103,7 @@ $=(a_1+b_1, a_2+b_2, ..., a_n + b_n)$<br>
 
 ![](img/Vetores%20(matemática)/vector_2d_add.png)
 
-#### Propriedades da Adição
+### Propriedades da Adição
 
 - Comutativa: $\vec{u}+\vec{v}=\vec{v}+\vec{u}$
 
@@ -105,7 +113,7 @@ $=(a_1+b_1, a_2+b_2, ..., a_n + b_n)$<br>
 
 - Elemento inverso: Qualquer que seja o vetor $\vec{v}$, existe um só vetor $-\vec{v}$ (vetor oposto a $\vec{v}$) tal que $\vec{v}+(-\vec{v})=-\vec{v}+\vec{v}=\vec{0}$
 
-### Subtração
+## Subtração
 
 Sejam os vetores $\vec{u}=(a_1, a_2,..., a_n)$ e $\vec{v}=(b_1, b_2, ..., b_n)$. A subtração (ou diferença) dos vetores $\vec{u}$ e $\vec{v}$ é o vetor $\vec{w}$ definido pela sequência de expressões (utiliza multiplicação por escalar com o valor $-1$):
 
@@ -115,7 +123,7 @@ $=(a_1,a_2,...,a_n)+(-(b_1,b_2,...,b_n))$<br>
 $=(a_1,a_2,...,a_n)+(-b_1,-b_2,...,-b_n)$<br>
 $=(a_1-b_1, a_2-b_2, ..., a_n-b_n)$<br>
 
-### Multiplicação por Escalar
+## Multiplicação por Escalar
 
 Seja $\vec{u}=(x_1, x_2, ..., x_n)$ um vetor e $k$ um número real, o produto do real $k$ pelo vetor $\vec{u}$ é o vetor $\vec{w}$ definido pela sequência de expressões:
 
@@ -132,14 +140,14 @@ tal que:
 
 OBS.: Se $k=0$ ou $\vec{u}=\vec{0}$, então $\vec{w}=\vec{0}$, o vetor nulo.
 
-#### Propriedades da Multiplicação por Escalar
+### Propriedades da Multiplicação por Escalar
 
 - $a(b\vec{v})=(ab)\vec{v}$
 - $(a+b)\vec{v}=a\vec{v}+b\vec{v}$
 - $a(\vec{u}+\vec{v})=a\vec{u}+a\vec{v}$
 - $1\vec{v}=\vec{v}$
 
-### Produto Escalar
+## Produto Escalar
 
 Também denominado por Produto Interno.
 
@@ -149,21 +157,21 @@ ou por
 $$\vec{u}\bullet\vec{v}=|\vec{u}|\cdot|\vec{v}|\cdot\cos\theta$$
 onde $\theta$ é o [ângulo formado entre os dois vetores](#ângulo-entre-vetores).
 
-#### Propriedades do Produto Escalar
+### Propriedades do Produto Escalar
 
 - $\vec{u}\bullet\vec{v}=\vec{v}\bullet\vec{u}$
 - $(a\vec{u})\bullet\vec{v}=a(\vec{u}\bullet\vec{v})=\vec{u}\bullet(a\vec{v})$
 - $\vec{u}\bullet(\vec{v}+\vec{w})=\vec{u}\bullet\vec{v}+\vec{u}\bullet\vec{w}$
 - $\vec{u}\bullet\vec{u}=|\vec{u}|^2$
 
-### Ângulo entre Vetores
+## Ângulo entre Vetores
 
 O ângulo entre dois vetores não nulos $\vec{u}$ e $\vec{v}$ é o ângulo $\theta$ formado pelas semiretas $AO$ e $OB$, onde $O$ é a origem de ambos os vetores, $A$ é a extremidade de $\vec{u}$ e $B$ é a extremidade de $\vec{v}$, tal que $0\leq\theta\leq\pi$.
 
 Tem-se:
 $$\cos\theta=\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|\cdot|\vec{v}|}$$
 
-#### Observações
+### Observações (Ângulo entre Vetores)
 - Se $\theta=\pi$, então os vetores $\vec{u}$ e $\vec{v}$ têm a mesma direção porém sentidos opostos
 
 - Se $\theta=0º$, então os vetores $\vec{u}$ e $\vec{v}$ têm a mesma direção e mesmo sentido
@@ -172,18 +180,18 @@ $$\cos\theta=\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|\cdot|\vec{v}|}$$
 
 - O vetor nulo $\vec{0}$ é considerado ortogonal a qualquer vetor
 
-### Ortogonalidade entre Vetores
+## Ortogonalidade entre Vetores
 
 Dois vetores $\vec{u}$ e $\vec{v}$ são ortogonais ou perpendiculares se, e somente se $\vec{u}\bullet\vec{v}=0$.
 
 Em outras palavras, para determinar se dois vetores são ortogonais, basta verificar se o produto escalar entre eles é igual a zero. A ortogonalidade de dois vetores é representada pelo símbolo $\perp$. Neste caso, $\vec{u}\perp\vec{v}$.
 
-### Projeção de Vetores
+## Projeção de Vetores
 
 Dado dois vetores não nulos $\vec{u}$ e $\vec{v}$, a projeção de $\vec{v}$ sobre $\vec{u}$, denominada $Proj_{\vec{u}}\vec{v}$, é o vetor $\vec{p}$ determinado por:
 $$\vec{p}=\left(\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|^2}\right)\vec{u}$$
 
-#### Observações
+### Observações (Projeção de Vetores)
 
 - Se os vetores forem **ortogonais**, i.e. $\vec{u}\perp\vec{v}$, então $Proj_{\vec{u}}\vec{v} = Proj_{\vec{v}}\vec{u}=\vec{0}$ (vetor nulo);
 
@@ -193,7 +201,7 @@ $$\vec{p}=\left(\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|^2}\right)\vec{u}$$
   - $Proj_{\vec{u}}\vec{v}=(\vec{u}\bullet\vec{v})\vec{u}$
   - $|Proj_{\vec{u}}\vec{v}|=|\vec{u}\bullet\vec{v}|$
 
-### Produto Vetorial
+## Produto Vetorial
 
 Seja $\vec{u}=(x_1,y_1,z_1)$ e $\vec{v}=(x_2,y_2,z_2)$ vetores do $\mathbb{R}^3$, define-se o vetor que é o produto vetorial de $\vec{u}$ e $\vec{v}$, representado por $\vec{u}\times\vec{v}$, da seguinte forma:
 
@@ -209,7 +217,7 @@ x_2 & y_2 & z_2 \\
 \end{vmatrix}
 $$
 
-#### Observações
+### Observações (Produto Vetorial)
 
 *O Produto Vetorial não é definido no $\mathbb{R}^2$*
 
@@ -221,7 +229,7 @@ Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial 
 
 ![](img/Vetores%20(matemática)/06_vectors16.svg)
 
-#### Propridedades do Produto Vetorial
+### Propridedades do Produto Vetorial
 
 - $\vec{u}\times\vec{v}=-(\vec{v}\times\vec{u})$
 - $\vec{u}\times(\vec{v}+\vec{w})=\vec{u}\times\vec{v}+\vec{u}\times\vec{w}$
@@ -232,12 +240,14 @@ Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial 
 - Se $\vec{u}\neq\vec{0}$ e $\vec{v}\neq\vec{0}$, e $\theta$ é o ângulo entre $\vec{u}$ e $\vec{v}$, então $$\sin\theta=\frac{|\vec{u}\times\vec{v}|}{|\vec{u}|\cdot|\vec{v}|}$$
 - O produto vetorial não é associativo, isto é $$\vec{u}\times(\vec{v}\times\vec{w})\neq(\vec{u}\times\vec{v})\times\vec{w}$$
 
-#### Interpretação Geométrica do Produto Vetorial
+### Interpretação Geométrica do Produto Vetorial
 
 A área $A$ de um paralelogramo formado pelos vetores $\vec{u}$ e $\vec{v}$ pode ser determinada pelo módulo do produto vetorial de $\vec{u}$ e $\vec{v}$. 
 $$A=|\vec{u}\times\vec{v}|$$
 
-### Produto Misto
+## Produto Misto
+
+### Observações (Produto Misto)
 
 *O Produto Misto não é definido no $\mathbb{R}^2$*
 
