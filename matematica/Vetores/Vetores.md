@@ -37,7 +37,7 @@ Um **vetor** determinado por um segmento orientado AB (i.e. uma seta que sai do 
 
 ## Representação
 
-![](img/Vetores%20(matemática)/Vector_from_A_to_B.png)
+![](img/Vector_from_A_to_B.png)
 
 **Vetor:** $\vec{v}\in\mathbb{R}^n$ tal que $\vec{v}=(x_1, x_2, ..., x_n)$
 
@@ -82,7 +82,7 @@ $\approx3,16227$<br>
 
 A [base canônica](#https://pt.wikipedia.org/wiki/Base_can%C3%B4nica) no espaço vetorial $\mathbb{R}^3$ é formada pelos **versores** $\hat{i}=(1,0,0)$, $\hat{j}=(0,1,0)$ e $\hat{k}=(0,0,1)$.
 
-![](img/Vetores%20(matemática)/standard-basis-vectors.png)
+![](img/standard-basis-vectors.png)
 
 # Operações com Vetores
 
@@ -92,7 +92,7 @@ Um vetor $\vec{a}=(x, y, z)$ em $\mathbb{R}^3$ pode ser decomposto em três comp
 
 Também é possível representar um vetor utilizando os versores $\hat{i}$, $\hat{j}$ e $\hat{k}$ desta forma: $\vec{a}=x\cdot\hat{i}+y\cdot\hat{j}+z\cdot\hat{k}$
 
-![](img/Vetores%20(matemática)/3D_Vector.png)
+![](img/3D_Vector.png)
 
 ## Adição
 Sejam os vetores $\vec{u}=(a_1, a_2,..., a_n)$ e $\vec{v}=(b_1, b_2, ..., b_n)$. A soma dos vetores $\vec{u}$ e $\vec{v}$ é o vetor $\vec{w}$ definido pela sequência de expressões:
@@ -102,7 +102,7 @@ $=\vec{u}+\vec{v}$<br>
 $=(a_1,a_2,...,a_n)+(b_1,b_2,...,b_n)$<br>
 $=(a_1+b_1, a_2+b_2, ..., a_n + b_n)$<br>
 
-![](img/Vetores%20(matemática)/vector_2d_add.png)
+![](img/vector_2d_add.png)
 
 ### Propriedades da Adição
 
@@ -228,7 +228,7 @@ Sejam $\vec{u}$ e $\vec{v}$ vetores não paralelos entre si, o produto vetorial 
 2) Seu módulo é $|\vec{u}\times\vec{v}|=|\vec{u}|\cdot|\vec{v}|\cdot\sin\theta$, onde $\theta$ é a medida do ângulo entre $\vec{u}$ e $\vec{v}$;
 3) Os vetores $\vec{u}$, $\vec{v}$ e $\vec{u}\times\vec{v}$ nesta ordem formam um [triedro](https://pt.wikipedia.org/wiki/Triedro) positivo.
 
-![](img/Vetores%20(matemática)/06_vectors16.svg)
+![](img/06_vectors16.svg)
 
 ### Propridedades do Produto Vetorial
 
