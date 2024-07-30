@@ -1,7 +1,8 @@
 # Resumos
 
-Repositório que contém resumos, de minha autoria, feitos em Markdown.
+Repositório que contém resumos feitos em Markdown. Todos são de minha autoria
 Sinta-se à vontade para copiar e usar.
 
-- [Matrizes](Matrizes.md)
-- [Vetores (matemática)](Vetores%20(matemática).md)
+- Matemática
+  - [Matrizes](matematica/Matrizes.md)
+  - [Vetores](matematica/Vetores.md)

@@ -4,7 +4,8 @@ Notas sobre o resumo:
 1) Desconsideram-se demonstrações;
 2) Espera-se que o leitor já esteja familiarizado com planos e espaços cartesianos e operações matemáticas básicas (o que inclui cálculo de determinante de matrizes 2x2 e 3x3).
 
-**Sumário**
+# Sumário
+- [Sumário](#sumário)
 - [Definição](#definição)
   - [Representação](#representação)
   - [Nomenclaturas](#nomenclaturas)
