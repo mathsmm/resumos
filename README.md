@@ -1,6 +1,6 @@
 # Resumos
 
-Repositório que contém resumos feitos em Markdown. Todos são de minha autoria
+Repositório que contém resumos diversos feitos em Markdown.
 Sinta-se à vontade para copiar e usar.
 
 - Matemática
