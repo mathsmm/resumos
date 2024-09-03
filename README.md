@@ -1,8 +1,5 @@
 # Resumos
 
-Repositório que contém resumos diversos feitos em Markdown.
-Sinta-se à vontade para copiar e usar.
-
 - Matemática
   - [Matrizes](matematica/Matrizes.md)
   - [Vetores](matematica/Vetores.md)
@@ -16,7 +13,9 @@ Sinta-se à vontade para copiar e usar.
 
 Esta maneira de organizar servirá para, num futuro, um robô usar para linkar todos os resumos em um sumário geral.
 
-As pastas e arquivos Markdown podem começar com uma letra e um número:
+As pastas e arquivos Markdown podem começar com uma letra:
 - P - Representa uma Parte;
 - C - Representa um Capítulo;
 - S - Representa uma Seção.
+
+Estas letras são seguidas por um número N que pode assumir as formas N, N.N, N.N.N, ..., para subgrupos não representados pelas letras.
