@@ -121,7 +121,7 @@ def main():
         '_': ' '
     }
 
-    paths = DisplayablePath.make_tree(Path(os.getcwd()+'\\resumos'), criteria=criteria)
+    paths = DisplayablePath.make_tree(Path(os.getcwd()+'/resumos'), criteria=criteria)
     for path in paths:
         if 'resumos' in path.path.name:
             continue
