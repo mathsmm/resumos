@@ -11,8 +11,9 @@
 - As pastas de nível 1 representam assuntos gerais;
 - As pastas de nível 2 representam de fato os resumos. Elas podem ter;
   - Subpastas (nível 3), que por si só também podem ter subpastas (nível 4, 5, ..., n);
-  - Cada subpasta gera um item para o sumário do resumo. O item pode estar linkado como também pode não estar. Para um item ser linkado, seu diretório correspondente deve possuir um arquivo *markdown* (`.md`) diretamente dentro dele. O link então apontará para este *markdown*;
-  - Cada subpasta também pode conter arquivos auxiliares, como imagens.
+  - Cada subpasta gera um item para o sumário do resumo. O item pode estar linkado como também pode não estar. Para um item ser linkado, seu diretório correspondente deve possuir um arquivo *markdown* (`.md`) com o mesmo nome do diretório. O link então apontará para este *markdown*;
+  - Se houver mais arquivos *markdown* dentro da subpasta, cada um gerará um item e um link para o sumário. O item será um subitem de sua subpasta;
+- Imagens ficam guardadas no diretório `img` que fica dentro das pastas de nível 2.
 
 As pastas e arquivos Markdown podem conter um *underline* (`_`) em seus nomes. O que aparecer antes do *underline* é um indicador:
 
