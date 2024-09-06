@@ -6,16 +6,29 @@
 
 # Como estão organizados?
 
-- As pastas mais externas representam assuntos gerais;
-- As pastas de segundo nível representam os resumos. Elas podem ter;
-  - Subpastas, que por si só também podem ter subpastas (definição recursiva, gera uma árvore);
-  - Arquivos Markdown (`.md`), que são as "folhas" da árvore.
+**OBS.: Entende-se o diretório `resumos` como a "pasta raíz dos resumos" ou a "pasta de nível 0".**
 
-Esta maneira de organizar servirá para, num futuro, um robô usar para linkar todos os resumos em um sumário geral.
+- As pastas de nível 1 representam assuntos gerais;
+- As pastas de nível 2 representam de fato os resumos. Elas podem ter;
+  - Subpastas (nível 3), que por si só também podem ter subpastas (nível 4, 5, ..., n);
+  - Cada subpasta gera um item para o sumário do resumo. O item pode estar linkado como também pode não estar. Para um item ser linkado, seu diretório correspondente deve possuir um arquivo *markdown* (`.md`) diretamente dentro dele. O link então apontará para este *markdown*;
+  - Cada subpasta também pode conter arquivos auxiliares, como imagens.
 
-As pastas e arquivos Markdown podem começar com uma letra:
-- P - Representa uma Parte;
-- C - Representa um Capítulo;
-- S - Representa uma Seção.
+As pastas e arquivos Markdown podem conter um *underline* (`_`) em seus nomes. O que aparecer antes do *underline* é um indicador:
 
-Estas letras são seguidas por um número N que pode assumir as formas N, N.N, N.N.N, ..., para subgrupos não representados pelas letras.
+**Tabela de indicadores:**
+| Indicador | Representação | Aplicabilidade | Sintaxe |
+| --------- | ------------- | -------------- | ------- |
+| A | Artigo (não científico) | Subpastas de nível 2 | `A_Nome do Artigo` |
+| SA | Artigo Científico | Subpastas de nível 2 | `SA_Nome do Artigo Científico` |
+| B | Livro | Subpastas de nível 2 | `B_Nome do Livro` |
+| <número> | Número do Cap., Seção, etc. | Subpastas de nível 3..n | `<indicador><número>` |
+| P | Parte | Subpastas de nível 3..n | `P<número>_Nome da Parte` |
+| C | Capítulo | Subpastas de nível 3..n | `C<número>_Nome do Capítulo` |
+| S | Seção | Subpastas de nível 3..n | `S<número>_Nome da Seção` |
+| SEQ | Sequência | Subpastas de nível 3..n | `SEQ<número>(.<número>)*_Nome qualquer` |
+
+**Sobre o indicador de Sequência**
+Ele pode ser utilizado caso o escritor do resumo não queira usar os indicadores de Parte, Capítulo, Seção, etc. Neste caso, utiliza-se números seguidos de pontos para agrupamento. Exemplo: 1, 1.1, 1.2, 1.1.1, 1.1.2, 2, 2.1, etc.
+
+IMPORTANTE: Se pelo menos uma subpasta utiliza o indicador de sequência, todas devem utilizar.
